@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Src">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Traktor : https://www.ingenieur.de/wp-content/uploads/2017/11/2017/19340_e100-Vario-von-Fendt.jpg \n\n E-Motor: https://inverterdrive.com/prodimage/600_WEG-W22-IE3-100L-B3-1.jpg \n\n Alternativer motor: https://oswos.com/wp-content/uploads/2020/10/synchron-reluktanzmotor.png \n\n Syntetischer krafsstoff: https://wp.tyt.com.mx/wp-content/uploads/2015/02/biocombustiveis1.jpg \n\n Erneuerbare Energien: https://c8.alamy.com/compde/pgt5jt/grune-energie-symbol-schwarzweiss-design-von-kraft-und-energie-ui-pixel-perfect-einfache-piktogramm-grune-energie-symbol-web-design-apps-s-pgt5jt.jpg \n\n Umrüstung: https://www.hella.com/agriculture/assets/images/content_global/elektromobilitaet-traktor-landwirtschaft.jpg \n\n Mensch: https://s122.convertio.me/p/QpkFp-uvACPFBUmcyGlAzQ/0df555594d1967d7ec8587255232f2aa/mensch.png"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">ProjektPräsentation Landwirtschaft</string>
+    <string name="test">Test</string>
+    <string name="quellen">Quellen</string>
+    <string name="alternative_motoren">Alternative Motoren</string>
+    <string name="e_motor">E-Motor</string>
+    <string name="e_traktoren">E-Traktoren</string>
+    <string name="synthetischer_kraftstoff">Synthetischer Kraftstoff</string>
+    <string name="erneuerbare_energien">Erneuerbare Energien</string>
+    <string name="umr_stung">Umrüstung</string>
+    <string name="vor_und_nachteile_f_r_den_verbraucher">Vor-und Nachteile für den Verbraucher</string>
+    <string name="vor_und_nachteile_f_r_den_landwirt">Vor-und Nachteile für den Landwirt</string>
 </resources>

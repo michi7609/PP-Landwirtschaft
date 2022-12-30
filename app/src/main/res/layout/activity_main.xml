@@ -6,28 +6,212 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Start von: Alternative Motoren -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/alternative_motoren"
+        android:textStyle="bold"
+        android:layout_marginVertical="35dp"
+        android:layout_marginStart="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/back"
-        android:text="Test"
-        android:textStyle="bold"
-        android:layout_marginVertical="580dp"
-        android:layout_marginStart="40dp"
+        android:id="@+id/alternativemotoren"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="75dp"
+        android:layout_marginStart="25dp"
         android:background="@null"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/alternativemotoren"
         tools:ignore="ContentDescription" />
+    <!-- Ende von: Alternative Motoren -->
 
+    <!-- Start von: E-Motoren -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/e_motor"
+        android:textStyle="bold"
+        android:layout_marginVertical="190dp"
+        android:layout_marginStart="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/emotor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="220dp"
+        android:layout_marginStart="25dp"
+        android:background="@null"
+        android:src="@drawable/emotor"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: E-Motoren -->
+
+    <!-- Start von: E-Traktoren -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/e_traktoren"
+        android:textStyle="bold"
+        android:layout_marginVertical="350dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/elektrotraktor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="15dp"
+        android:background="@null"
+        android:src="@drawable/elektrotraktor"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: E-Traktoren -->
+
+    <!-- Start von: Synthetischen Kraftsoffen-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/synthetischer_kraftstoff"
+        android:textStyle="bold"
+        android:layout_marginVertical="540dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/synthetischerkraftstoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="570dp"
+        android:layout_marginStart="20dp"
+        android:background="@null"
+        android:src="@drawable/synthetischerkraftstoff"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: Synthetischen Kraftsoffen-->
+
+    <!-- Start von: Erneuerbaren Energien-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/erneuerbare_energien"
+        android:textStyle="bold"
+        android:layout_marginVertical="35dp"
+        android:layout_marginStart="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/erneuerbareenergien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="55dp"
+        android:layout_marginStart="250dp"
+        android:background="@null"
+        android:src="@drawable/erneuerbareenergien"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: Erneuerbaren Energien-->
+
+    <!-- Start von: Umrüstung-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/umr_stung"
+        android:textStyle="bold"
+        android:layout_marginVertical="185dp"
+        android:layout_marginStart="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/umruestung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="210dp"
+        android:layout_marginStart="225dp"
+        android:background="@null"
+        android:src="@drawable/umruestung"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: Umrüstung-->
+
+    <!-- Start von: Vor-und Nachteile für den Verbraucher-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vor_und_nachteile_f_r_den_verbraucher"
+        android:textStyle="bold"
+        android:layout_marginVertical="340dp"
+        android:layout_marginStart="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/mensch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="390dp"
+        android:layout_marginStart="220dp"
+        android:background="@null"
+        android:src="@drawable/mensch"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: Vor-und Nachteile für den Verbraucher-->
+
+    <!-- Start von: Vor-und Nachteile für den Landwirt-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vor_und_nachteile_f_r_den_landwirt"
+        android:textStyle="bold"
+        android:layout_marginVertical="530dp"
+        android:layout_marginStart="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/landwirt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="570dp"
+        android:layout_marginStart="250dp"
+        android:background="@null"
+        android:src="@drawable/landwirt"
+        android:textStyle="bold"
+        tools:ignore="ContentDescription" />
+    <!-- Ende von: Vor-und Nachteile für den Landwirt-->
+
+    <Button
+        android:id="@+id/src"
+        android:layout_marginVertical="685dp"
+        android:layout_marginStart="325dp"
+        android:layout_width="wrap_content"
+        android:text="@string/quellen"
+        android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>
