@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="TODO" />
+        tools:ignore="ContentDescription,MissingConstraints" />
     <!-- Ende von: Alternative Motoren -->
 
     <!-- Start von: E-Motoren -->
@@ -172,8 +172,8 @@
 
     <!-- Start von: Vor-und Nachteile für den Verbraucher-->
     <TextView
-        android:layout_width="168dp"
-        android:layout_height="43dp"
+        android:layout_width="384dp"
+        android:layout_height="100dp"
         android:text="@string/vor_und_nachteile_f_r_den_verbraucher"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/third2"

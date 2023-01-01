@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
                 landwirt = findViewById(R.id.landwirt),
                 mensch = findViewById(R.id.mensch);
 
-        alternativemotoren.setOnClickListener(v -> {});
-        emotor.setOnClickListener(v -> {});
-        synthetischerkraftstoff.setOnClickListener(v -> {});
-        erneuerbareenergien.setOnClickListener(v -> {});
-        umruestung.setOnClickListener(v -> {});
-        landwirt.setOnClickListener(v -> {});
-        mensch.setOnClickListener(v -> {});
-        elektrotraktor.setOnClickListener(v -> {});
+        alternativemotoren.setOnClickListener(v -> startActivity(new Intent(this, Alternative_Motoren.class)));
+        emotor.setOnClickListener(v -> startActivity(new Intent(this, EMotor.class)));
+        synthetischerkraftstoff.setOnClickListener(v -> startActivity(new Intent(this, SynthetischerKraftstoff.class)));
+        erneuerbareenergien.setOnClickListener(v -> startActivity(new Intent(this, ErneuerbareEnergien.class)));
+        umruestung.setOnClickListener(v -> startActivity(new Intent(this, Umruestung.class)));
+        landwirt.setOnClickListener(v -> startActivity(new Intent(this, Landwirt.class)));
+        mensch.setOnClickListener(v -> startActivity(new Intent(this, Mensch.class)));
+        elektrotraktor.setOnClickListener(v -> startActivity(new Intent(this, ETraktoren.class)));
 
         Button button = findViewById(R.id.src);
         button.setOnClickListener(v -> startActivity(new Intent(this, Src.class)));

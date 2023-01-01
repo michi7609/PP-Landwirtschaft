@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="TODO" />
+        tools:ignore="ContentDescription,MissingConstraints" />
     <!-- Ende von: Alternative Motoren -->
 
     <!-- Start von: E-Motoren -->
