@@ -21,6 +21,7 @@ public class Src extends AppCompatActivity {
                 seventhText = findViewById(R.id.seventhsrc),
                 eightText = findViewById(R.id.eightsrc);
 
+
         firstText.setMovementMethod(LinkMovementMethod.getInstance());
         secondText.setMovementMethod(LinkMovementMethod.getInstance());
         thirdText.setMovementMethod(LinkMovementMethod.getInstance());

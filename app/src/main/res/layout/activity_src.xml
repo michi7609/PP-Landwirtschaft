@@ -6,119 +6,130 @@
     android:layout_height="match_parent"
     tools:context=".Src">
 
-    <TextView
-        android:id="@+id/firstsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/firstLink"
-        app:layout_constraintBottom_toTopOf="@+id/secondsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-    <TextView
-        android:id="@+id/secondsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/secondLink"
-        app:layout_constraintBottom_toTopOf="@+id/thirdsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/firstsrc" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/thirdsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/thirdLink"
-        app:layout_constraintBottom_toTopOf="@+id/fourthsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/secondsrc" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp"
+                android:text="@string/e_traktoren" />
 
-    <TextView
-        android:id="@+id/fourthsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/fourthLink"
-        app:layout_constraintBottom_toTopOf="@+id/fifthsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/thirdsrc" />
+            <TextView
+                android:id="@+id/firstsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/firstLink" />
 
-    <TextView
-        android:id="@+id/fifthsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/fifthLink"
-        app:layout_constraintBottom_toTopOf="@+id/sixthsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/fourthsrc" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/e_motor" />
 
-    <TextView
-        android:id="@+id/sixthsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/sixthLink"
-        app:layout_constraintBottom_toTopOf="@+id/seventhsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/fifthsrc" />
+            <TextView
+                android:id="@+id/secondsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/secondLink" />
 
-    <TextView
-        android:id="@+id/seventhsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/seventhLink"
-        app:layout_constraintBottom_toTopOf="@+id/eightsrc"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/sixthsrc" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/alternative_motoren" />
 
-    <TextView
-        android:id="@+id/eightsrc"
-        android:layout_width="390dp"
-        android:layout_height="33dp"
-        android:text="@string/eightLink"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/srcguidline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/srcguidline1"
-        app:layout_constraintTop_toBottomOf="@+id/seventhsrc" />
+            <TextView
+                android:id="@+id/thirdsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/thirdLink" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/srcguidline1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.02" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/alternative_motoren" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/srcguidline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.98" />
+            <TextView
+                android:id="@+id/fourthsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fourthLink" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/srcguidline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.02" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/alternative_motoren" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/srcguidline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.98" />
+            <TextView
+                android:id="@+id/fifthsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fifthLink" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="@string/alternative_motoren" />
+
+            <TextView
+                android:id="@+id/sixthsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sixthLink" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/mensch" />
+
+            <TextView
+                android:id="@+id/seventhsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/seventhLink" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/landwirt" />
+
+            <TextView
+                android:id="@+id/eightsrc"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="@string/eightLink" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
 </android.support.constraint.ConstraintLayout>

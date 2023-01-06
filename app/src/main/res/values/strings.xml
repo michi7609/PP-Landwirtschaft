@@ -10,12 +10,14 @@
     <string name="umr_stung">Umrüstung</string>
     <string name="vor_und_nachteile_f_r_den_verbraucher">Vor-und Nachteile für den Verbraucher</string>
     <string name="vor_und_nachteile_f_r_den_landwirt">Vor-und Nachteile für den Landwirt</string>
-    <string name="firstLink">E-Traktor Bild: <a href="https://www.ingenieur.de/wp-content/uploads/2017/11/2017/19340_e100-Vario-von-Fendt.jpg">https://www.ingenieur.de/wp-content/uploads/2017/11/2017/19340_e100-Vario-von-Fendt.jpg</a></string>
-    <string name="secondLink">E-Motor Bild: <a href="https://inverterdrive.com/prodimage/600_WEG-W22-IE3-100L-B3-1.jpg">https://inverterdrive.com/prodimage/600_WEG-W22-IE3-100L-B3-1.jpg</a></string>
-    <string name="thirdLink">Alternativer Motor Bild: <a href="https://oswos.com/wp-content/uploads/2020/10/synchron-reluktanzmotor.png">https://oswos.com/wp-content/uploads/2020/10/synchron-reluktanzmotor.png</a></string>
-    <string name="fourthLink">Syntethischer Kraftstoff Bild: <a href="https://wp.tyt.com.mx/wp-content/uploads/2015/02/biocombustiveis1.jpg ">https://wp.tyt.com.mx/wp-content/uploads/2015/02/biocombustiveis1.jpg </a></string>
-    <string name="fifthLink">Erneuerbare Energien Bild: <a href="https://c8.alamy.com/compde/pgt5jt/grune-energie-symbol-schwarzweiss-design-von-kraft-und-energie-ui-pixel-perfect-einfache-piktogramm-grune-energie-symbol-web-design-apps-s-pgt5jt.jpg">https://c8.alamy.com/compde/pgt5jt/grune-energie-symbol-schwarzweiss-design-von-kraft-und-energie-ui-pixel-perfect-einfache-piktogramm-grune-energie-symbol-web-design-apps-s-pgt5jt.jpg</a></string>
-    <string name="sixthLink">Umrüstung: <a href="https://www.hella.com/agriculture/assets/images/content_global/elektromobilitaet-traktor-landwirtschaft.jpg">https://www.hella.com/agriculture/assets/images/content_global/elektromobilitaet-traktor-landwirtschaft.jpg</a></string>
-    <string name="seventhLink">Mensch: <a href="https://s122.convertio.me/p/QpkFp-uvACPFBUmcyGlAzQ/0df555594d1967d7ec8587255232f2aa/mensch.png">https://s122.convertio.me/p/QpkFp-uvACPFBUmcyGlAzQ/0df555594d1967d7ec8587255232f2aa/mensch.png</a></string>
-    <string name="eightLink">Landwirt: <a href="https://landverliebt.de/magazin/wp-content/uploads/sites/32/2020/05/AdobeStock_200857532-scaled.jpeg">https://landverliebt.de/magazin/wp-content/uploads/sites/32/2020/05/AdobeStock_200857532-scaled.jpeg</a></string>
+    <string name="firstLink"><a href="https://www.ingenieur.de/wp-content/uploads/2017/11/2017/19340_e100-Vario-von-Fendt.jpg">https://www.ingenieur.de/wp-content/uploads/2017/11/2017/19340_e100-Vario-von-Fendt.jpg</a></string>
+    <string name="secondLink"><a href="https://inverterdrive.com/prodimage/600_WEG-W22-IE3-100L-B3-1.jpg">https://inverterdrive.com/prodimage/600_WEG-W22-IE3-100L-B3-1.jpg</a></string>
+    <string name="thirdLink"><a href="https://oswos.com/wp-content/uploads/2020/10/synchron-reluktanzmotor.png">https://oswos.com/wp-content/uploads/2020/10/synchron-reluktanzmotor.png</a></string>
+    <string name="fourthLink"><a href="https://wp.tyt.com.mx/wp-content/uploads/2015/02/biocombustiveis1.jpg ">https://wp.tyt.com.mx/wp-content/uploads/2015/02/biocombustiveis1.jpg </a></string>
+    <string name="fifthLink"><a href="https://c8.alamy.com/compde/pgt5jt/grune-energie-symbol-schwarzweiss-design-von-kraft-und-energie-ui-pixel-perfect-einfache-piktogramm-grune-energie-symbol-web-design-apps-s-pgt5jt.jpg">https://c8.alamy.com/compde/pgt5jt/grune-energie-symbol-schwarzweiss-design-von-kraft-und-energie-ui-pixel-perfect-einfache-piktogramm-grune-energie-symbol-web-design-apps-s-pgt5jt.jpg</a></string>
+    <string name="sixthLink"><a href="https://www.hella.com/agriculture/assets/images/content_global/elektromobilitaet-traktor-landwirtschaft.jpg">https://www.hella.com/agriculture/assets/images/content_global/elektromobilitaet-traktor-landwirtschaft.jpg</a></string>
+    <string name="seventhLink"><a href="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzn4bGDUZKlmo1HBZVnCvrly-50EGLXjHojDKdxllgy7uAkrP-">https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzn4bGDUZKlmo1HBZVnCvrly-50EGLXjHojDKdxllgy7uAkrP-</a></string>
+    <string name="eightLink"><a href="https://landverliebt.de/magazin/wp-content/uploads/sites/32/2020/05/AdobeStock_200857532-scaled.jpeg">https://landverliebt.de/magazin/wp-content/uploads/sites/32/2020/05/AdobeStock_200857532-scaled.jpeg</a></string>
+    <string name="landwirt">Landwirt</string>
+    <string name="mensch">Mensch</string>
 </resources>
