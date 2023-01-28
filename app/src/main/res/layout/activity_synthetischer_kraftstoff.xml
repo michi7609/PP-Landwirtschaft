@@ -6,4 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".SynthetischerKraftstoff">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="@string/synthetischer_kraftstoff1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/synthetischer_kraftstoff2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/synthetischer_kraftstoff3"/>
+
+            <TextView
+                android:id="@+id/amogyconnector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amogy"
+                />
+
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

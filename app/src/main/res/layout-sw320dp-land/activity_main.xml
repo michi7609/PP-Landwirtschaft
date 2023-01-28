@@ -33,60 +33,6 @@
         app:layout_constraintTop_toTopOf="@+id/first2" />
     <!-- Ende von: Alternative Motoren -->
 
-    <!-- Start von: E-Motoren -->
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/e_motor"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/second2"
-        app:layout_constraintEnd_toEndOf="@+id/guideline2"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="@+id/second1" />
-
-    <ImageButton
-        android:id="@+id/emotor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:src="@drawable/emotor"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
-        app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toEndOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="@+id/second2"
-        tools:ignore="ContentDescription,MissingConstraints" />
-    <!-- Ende von: E-Motoren -->
-
-    <!-- Start von: E-Traktoren -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/e_traktoren"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/first2"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="@+id/guideline3" />
-
-    <ImageButton
-        android:id="@+id/elektrotraktor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:src="@drawable/elektrotraktor"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/second1"
-        app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toTopOf="@+id/first2"
-        tools:ignore="ContentDescription,MissingConstraints" />
-    <!-- Ende von: E-Traktoren -->
-
     <!-- Start von: Synthetischen Kraftsoffen-->
     <TextView
         android:layout_width="wrap_content"
@@ -94,8 +40,8 @@
         android:text="@string/synthetischer_kraftstoff"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/second2"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/second1" />
 
     <ImageButton
@@ -107,12 +53,35 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="@+id/second2"
         tools:ignore="ContentDescription,MissingConstraints" />
     <!-- Ende von: Synthetischen Kraftsoffen-->
+
+    <!-- Start von: E-Motoren -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amogy"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/first2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/first1" />
+
+    <ImageButton
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/amogy"
+        app:layout_constraintBottom_toTopOf="@+id/second1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/first2" />
+    <!-- Ende von: E-Motoren -->
 
     <!-- Start von: Erneuerbaren Energien-->
     <TextView
@@ -151,8 +120,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/second2"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline7"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/second1" />
 
     <ImageButton
@@ -164,9 +133,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/second2"
         tools:ignore="ContentDescription,MissingConstraints,SpeakableTextPresentCheck" />
     <!-- Ende von: Umrüstung-->
@@ -207,8 +176,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/second2"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline9"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/second1" />
 
     <ImageButton
@@ -220,9 +189,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintDimensionRatio="1:1"
-        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/second2"
         tools:ignore="ContentDescription,MissingConstraints" />
     <!-- Ende von: Vor-und Nachteile für den Landwirt-->
@@ -232,11 +201,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/quellen"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline9"
         app:layout_constraintHorizontal_bias="0.61"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/landwirt"
+        app:layout_constraintTop_toTopOf="@+id/second2"
         tools:ignore="MissingConstraints" />
 
     <android.support.constraint.Guideline

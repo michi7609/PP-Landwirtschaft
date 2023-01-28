@@ -21,38 +21,10 @@
                 android:textStyle="bold"
                 android:textSize="15sp"
                 android:layout_marginTop="1dp"
-                android:text="@string/e_traktoren" />
-
-            <TextView
-                android:id="@+id/firstsrc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/firstLink" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:layout_marginTop="15dp"
-                android:text="@string/e_motor" />
-
-            <TextView
-                android:id="@+id/secondsrc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/secondLink" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:layout_marginTop="15dp"
                 android:text="@string/alternative_motoren" />
 
             <TextView
-                android:id="@+id/thirdsrc"
+                android:id="@+id/firstsrc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/thirdLink" />
@@ -63,10 +35,10 @@
                 android:textStyle="bold"
                 android:textSize="15sp"
                 android:layout_marginTop="15dp"
-                android:text="@string/alternative_motoren" />
+                android:text="@string/synthetischer_kraftstoff" />
 
             <TextView
-                android:id="@+id/fourthsrc"
+                android:id="@+id/secondsrc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fourthLink" />
@@ -77,10 +49,10 @@
                 android:textStyle="bold"
                 android:textSize="15sp"
                 android:layout_marginTop="15dp"
-                android:text="@string/alternative_motoren" />
+                android:text="@string/erneuerbare_energien" />
 
             <TextView
-                android:id="@+id/fifthsrc"
+                android:id="@+id/thirdsrc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fifthLink" />
@@ -91,10 +63,10 @@
                 android:layout_marginTop="15dp"
                 android:textStyle="bold"
                 android:textSize="15sp"
-                android:text="@string/alternative_motoren" />
+                android:text="@string/umr_stung" />
 
             <TextView
-                android:id="@+id/sixthsrc"
+                android:id="@+id/fourthsrc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sixthLink" />
@@ -108,7 +80,7 @@
                 android:text="@string/mensch" />
 
             <TextView
-                android:id="@+id/seventhsrc"
+                android:id="@+id/fifthsrc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/seventhLink" />
@@ -122,11 +94,24 @@
                 android:text="@string/landwirt" />
 
             <TextView
-                android:id="@+id/eightsrc"
+                android:id="@+id/sixthsrc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/eightLink" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:text="@string/amogy" />
+
+            <TextView
+                android:id="@+id/seventhsrc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ninthLink" />
         </LinearLayout>
     </ScrollView>
 

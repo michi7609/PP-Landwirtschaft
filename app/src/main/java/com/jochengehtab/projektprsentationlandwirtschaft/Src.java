@@ -18,9 +18,7 @@ public class Src extends AppCompatActivity {
                 fourthText = findViewById(R.id.fourthsrc),
                 fifthText = findViewById(R.id.fifthsrc),
                 sixthText = findViewById(R.id.sixthsrc),
-                seventhText = findViewById(R.id.seventhsrc),
-                eightText = findViewById(R.id.eightsrc);
-
+                seventhText = findViewById(R.id.seventhsrc);
 
         firstText.setMovementMethod(LinkMovementMethod.getInstance());
         secondText.setMovementMethod(LinkMovementMethod.getInstance());
@@ -29,6 +27,5 @@ public class Src extends AppCompatActivity {
         fifthText.setMovementMethod(LinkMovementMethod.getInstance());
         sixthText.setMovementMethod(LinkMovementMethod.getInstance());
         seventhText.setMovementMethod(LinkMovementMethod.getInstance());
-        eightText.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }

@@ -48,14 +48,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ETraktoren"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".EMotor"
+            android:name=".Amogy"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
