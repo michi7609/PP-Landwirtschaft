@@ -36,4 +36,9 @@
     <string name="umruestung2">Es gibt <b>nicht</b> viele Möglichkeiten für eine Umrüstung. Von daher liegt der Fokus eher auf Synthetischen Kraftstoffen. So gibt es das vereinzelt Beispiel von eine Synthetischen Kraftstoff der zu <b>10%</b> aus <b>Diesel</b> besteht und zu <b>90%</b> aus <b>Wasserstoff</b> besteht.</string>
     <string name="umruestung3"><b><i><u>Beispiele:</u></i></b></string>
     <string name="ee1">Erneuerbare Energien: \n\nWas zählt alles zu den erneuerbaren Energien?\nWind- und Sonnenenergie sind die wichtigsten erneuerbaren Energieträger. Daneben leisten Biomasse und Wasserkraft einen wertvollen Beitrag zur nachhaltigen Energieversorgung. Windenergie spielt gegenwärtig die tragende Rolle beim Ausbau der erneuerbaren Energien.Die Stromversorgung in Deutschland wird Jahr für Jahr „grüner“. Der Anteil der erneuerbaren Energien am Stromverbrauch wächst beständig: von rund sechs Prozent im Jahr 2000 auf rund 45 Prozent im Jahr 2020. Damit wurde die ursprüngliche Zielmarke von 35 Prozent für das Jahr 2020 deutlich übertroffen.Aber wie schauts in der Landwirtschaft aus?Beteiligung:Denn die deutsche Landwirtschaft ist maßgeblich an der Erzeugung erneuerbarer Energien beteiligt. So sind deutschlandweit 2020 mehr als 9.500 Biogasanlagen mit einer installierten Leistung von über 5.600 Megawatt (MW) in Betrieb.Sie liefern ausreichend Strom für mehr als neun Millionen Haushalte und decken rund 5,4 Prozent des deutschen Stromverbrauchs ab.</string>
+    <string name="mensch1"><b><i><u>Vorteile Mensch:</u></i></b></string>
+    <string name="mensch2">\t\t-\tVerbesserung der Luftqualität\n\t\t-\tWeniger CO2 Ausstoß</string>
+    <string name="mensch3"><b><i><u>Nachteile Mensch:</u></i></b></string>
+    <string name="mensch4">\t\t-\tHerstellung der Batterien der Elektrotraktoren\n\t\t\t schädlich für die Umwelt</string>
+    <string name="einstellungen">Einstellungen</string>
 </resources>
