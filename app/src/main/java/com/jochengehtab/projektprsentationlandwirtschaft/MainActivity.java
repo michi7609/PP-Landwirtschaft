@@ -4,9 +4,13 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import org.json.JSONException;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,13 +33,13 @@ public class MainActivity extends AppCompatActivity {
         umruestung.setOnClickListener(v -> startActivity(new Intent(this, Umruestung.class)));
         landwirt.setOnClickListener(v -> startActivity(new Intent(this, Landwirt.class)));
         mensch.setOnClickListener(v -> startActivity(new Intent(this, Mensch.class)));
-        Log.d("Joch", String.valueOf(amogy));
+        Log.d("Jochengehtab", String.valueOf(amogy));
         amogy.setOnClickListener(v -> startActivity(new Intent(this, Amogy.class)));
 
         Button button = findViewById(R.id.src);
         button.setOnClickListener(v -> startActivity(new Intent(this, Src.class)));
 
         Button settings = findViewById(R.id.settings);
-        settings.setOnClickListener(v -> {startActivity(new Intent(this, Settings.class));});
+        settings.setOnClickListener(v -> startActivity(new Intent(this, Settings.class)));
     }
 }
