@@ -16,37 +16,49 @@
             android:orientation="vertical" >
 
             <TextView
+                android:id="@+id/aa1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:text="@string/amogy1"/>
             <TextView
+                android:id="@+id/aa2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="16sp"
                 android:layout_marginTop="20dp"
                 android:text="@string/amogy2"/>
 
             <TextView
+                android:id="@+id/aa3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="20sp"
                 android:layout_marginTop="20dp"
                 android:text="@string/amogy3"/>
 
             <TextView
+                android:id="@+id/aa4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textSize="16sp"
                 android:text="@string/amogy4"/>
 
             <TextView
+                android:id="@+id/aa5"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="@string/amogy5"/>
 
             <TextView
+                android:id="@+id/aa6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:textSize="16sp"
                 android:text="@string/amogy6"/>
         </LinearLayout>
     </ScrollView>

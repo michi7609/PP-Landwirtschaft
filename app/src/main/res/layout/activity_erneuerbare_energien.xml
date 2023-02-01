@@ -15,9 +15,56 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/ee1"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ee1"/>
+
+            <TextView
+                android:id="@+id/ee2"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ee2"/>
+
+            <TextView
+                android:id="@+id/ee3"
+                android:textSize="16sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ee3"/>
+
+            <TextView
+                android:id="@+id/ee4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ee4"/>
+
+            <TextView
+                android:id="@+id/ee5"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ee5"/>
+
+            <TextView
+                android:id="@+id/ee6"
+                android:textSize="16sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/ee6"/>
 
         </LinearLayout>
     </ScrollView>
