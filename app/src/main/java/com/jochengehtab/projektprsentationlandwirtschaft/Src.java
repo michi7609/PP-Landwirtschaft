@@ -38,15 +38,6 @@ public class Src extends AppCompatActivity {
         TextView src5 = findViewById(R.id.src5);
         TextView src6 = findViewById(R.id.src6);
         TextView src7 = findViewById(R.id.src7);
-
-        TextView firstSrc = findViewById(R.id.firstsrc);
-        TextView secondsrc = findViewById(R.id.secondsrc);
-        TextView thirdSrc = findViewById(R.id.thirdsrc);
-        TextView fourthSrc = findViewById(R.id.fourthsrc);
-        TextView fifthSrc = findViewById(R.id.fifthsrc);
-        TextView sixthSrc = findViewById(R.id.sixthsrc);
-        TextView seventhSrc = findViewById(R.id.seventhsrc);
-
         src1.setTextSize(textSize);
         src2.setTextSize(textSize);
         src3.setTextSize(textSize);
@@ -55,12 +46,12 @@ public class Src extends AppCompatActivity {
         src6.setTextSize(textSize);
         src7.setTextSize(textSize);
 
-        firstSrc.setTextSize(textSize - 2);
-        secondsrc.setTextSize(textSize - 2);
-        thirdSrc.setTextSize(textSize - 2);
-        fourthSrc.setTextSize(textSize - 2);
-        fifthSrc.setTextSize(textSize - 2);
-        sixthSrc.setTextSize(textSize - 2);
-        seventhSrc.setTextSize(textSize - 2);
+        firstText.setTextSize(textSize - 2);
+        secondText.setTextSize(textSize - 2);
+        thirdText.setTextSize(textSize - 2);
+        fourthText.setTextSize(textSize - 2);
+        fifthText.setTextSize(textSize - 2);
+        sixthText.setTextSize(textSize - 2);
+        seventhText.setTextSize(textSize - 2);
     }
 }

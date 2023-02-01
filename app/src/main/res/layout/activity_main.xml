@@ -9,6 +9,7 @@
 
     <!-- Start von: Alternative Motoren -->
     <TextView
+        android:id="@+id/am1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/alternative_motoren"
@@ -36,6 +37,7 @@
 
     <!-- Start von: E-Motoren -->
     <TextView
+        android:id="@+id/am1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/amogy"
@@ -50,18 +52,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@null"
-        android:contentDescription="TODO"
         android:src="@drawable/amogy"
         app:layout_constraintBottom_toTopOf="@+id/third1"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="@+id/second2" />
+        app:layout_constraintTop_toTopOf="@+id/second2"
+        tools:ignore="ContentDescription" />
     <!-- Ende von: E-Motoren -->
 
     <!-- Ende von: E-Traktoren -->
 
     <!-- Start von: Synthetischen Kraftsoffen-->
     <TextView
+        android:id="@+id/am5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/synthetischer_kraftstoff"
@@ -89,6 +92,7 @@
 
     <!-- Start von: Erneuerbaren Energien-->
     <TextView
+        android:id="@+id/am2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/erneuerbare_energien"
@@ -117,6 +121,7 @@
 
     <!-- Start von: Umrüstung-->
     <TextView
+        android:id="@+id/am4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/umr_stung"
@@ -145,7 +150,7 @@
 
     <!-- Start von: Vor-und Nachteile für den Verbraucher-->
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/am6"
         android:layout_width="168dp"
         android:layout_height="43dp"
         android:text="@string/vor_und_nachteile_f_r_den_verbraucher"
@@ -174,6 +179,7 @@
 
     <!-- Start von: Vor-und Nachteile für den Landwirt-->
     <TextView
+        android:id="@+id/am7"
         android:layout_width="163dp"
         android:layout_height="38dp"
         android:text="@string/vor_und_nachteile_f_r_den_landwirt"
