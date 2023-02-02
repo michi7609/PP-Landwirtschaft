@@ -17,12 +17,14 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/vm1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="@string/mensch1"/>
 
             <TextView
+                android:id="@+id/vm2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
@@ -30,6 +32,7 @@
                 android:text="@string/mensch2"/>
 
             <TextView
+                android:id="@+id/vm3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
@@ -37,6 +40,7 @@
                 android:text="@string/mensch3"/>
 
             <TextView
+                android:id="@+id/vm4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"

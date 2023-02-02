@@ -31,5 +31,18 @@ public class Umruestung extends AppCompatActivity {
         spannableString.setSpan(clickableSpan, 0, 24, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         textView.setText(spannableString);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
+
+        Json json = new Json(getApplicationContext());
+        int textSize = json.get("config.json");
+
+        TextView um1 = findViewById(R.id.um1);
+        TextView um2 = findViewById(R.id.um2);
+        TextView um3 = findViewById(R.id.um3);
+
+        um1.setTextSize(textSize + 4);
+        um2.setTextSize(textSize);
+        um3.setTextSize(textSize + 4);
+
+        textView.setTextSize(textSize);
     }
 }

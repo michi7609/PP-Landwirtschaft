@@ -22,10 +22,12 @@
     <string name="landwirt">Landwirt</string>
     <string name="mensch">Mensch</string>
     <string name="amogy">Amogy</string>
-    <string name="synthetischer_kraftstoff1"><b>Beispiele für Syntethische Kraftstoffe:</b>\n\n \t•\t\t	Ammoniak\n\t•\t\t	Methanol\n\t•\t\t	Dimethylether\n\t•\t\t	SNG (Synthetic Natural Gas)\n\t•\t\t	Wasserstoff\n\t•\t\t	Oxymethylenether\n\t•\t\t	Aceton\n\t•\t\t	Hydrazin\n\t•\t\t	Benzol\n\t•\t\t	Nitrobenzol</string>
-    <string name="synthetischer_kraftstoff2">Zukunftsfähig wären aber nur … \n\n<b>Ammoniak:</b>\nAmmoniak wird mit dem Haber Bosch Verfahren hergestellt. Dabei wendet man die sogenannte Ammoniaksynthese an.\n\n<b>Wasserstoff:</b>\nGrüner Wasserstoff weird durch die Elektrolyse von Wasser hergestellt. Dafür wird Strom aus erneuerbaren Energien verwendet.</string>
+    <string name="synthetischer_kraftstoff1"><b><i><u>Beispiele für Syntethischen Kraftsotff:</u></i></b></string>
+    <string name="synthetischer_kraftstoff2">Zukunftsfähig wären aber nur …</string>
     <string name="synthetischer_kraftstoff3"><b>Beispiele:</b></string>
     <string name="synthetischer_kraftstoff4"><b>\n\t Amogy</b></string>
+    <string name="synthetischer_kraftstoff5">\t•\t\t	Ammoniak\n\t•\t\t	Methanol\n\t•\t\t	Dimethylether\n\t•\t\t	SNG (Synthetic Natural Gas)\n\t•\t\t	Wasserstoff\n\t•\t\t	Oxymethylenether\n\t•\t\t	Aceton\n\t•\t\t	Hydrazin\n\t•\t\t	Benzol\n\t•\t\t	Nitrobenzol</string>
+    <string name="synthetischer_kraftstoff6"><b>Ammoniak:</b>\nAmmoniak wird mit dem Haber Bosch Verfahren hergestellt. Dabei wendet man die sogenannte Ammoniaksynthese an.\n\n<b>Wasserstoff:</b>\nGrüner Wasserstoff weird durch die Elektrolyse von Wasser hergestellt. Dafür wird Strom aus erneuerbaren Energien verwendet.</string>
     <string name="amogy1"><b>Mitarbeiter:</b></string>
     <string name="amogy2">\t\t•\tSeonghoon Woo (Vorsitzender, CEO und Mitbegründer)\n\t\t•\tYoung Suk Jo (CTO und Mitbegründer)\n\t\t•\tHyunho Kim (Vizepräsident für Innovation und Mitbegründer) \n\t\t•\tJongwon Choi (Vizepräsident der Fertigung \n\t\t und Mitbegründer) \n\t\t•\tChristian Berg (Geschäftsführer, Amogy Norwegen)</string>
     <string name="amogy3"><b>Geschichte:</b></string>
@@ -46,4 +48,8 @@
     <string name="mensch3"><b><i><u>Nachteile Mensch:</u></i></b></string>
     <string name="mensch4">\t\t-\tHerstellung der Batterien der Elektrotraktoren\n\t\t\t schädlich für die Umwelt</string>
     <string name="einstellungen">Einstellungen</string>
+    <string name="la1"><b><i><u>Vorteile Landwirt:</u></i></b></string>
+    <string name="la2">\t\t- <b>Kosteneinsparung</b> von <b>Treibstoffverbrauch</b> \n\t\t- Weniger Betriebskosten für die Traktoren\n\t\t- <b>Unabhängiger</b> von <b>fossilen Brennstoffen</b> </string>
+    <string name="la3"><b><i><u>Nachteile Landwirt:</u></i></b></string>
+    <string name="la4">\t\t- <b>Hohe Anschaffungskosten.</b> \n\t\t- Elektrofahrzeuge und andere nachhaltige Mobilitätsoptionen kosten meistens mehr\n\t\t- Elektrofahrzeuge sind nicht so leistungsfähig\n\t\t - Wenige Ladesäulen in Deutschland für Wasserstoff Traktoren\n\t\t- Elektrotraktoren nicht für schwere Lasten geeignet</string>
 </resources>

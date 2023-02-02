@@ -10,6 +10,7 @@
     <!-- Start von: Alternative Motoren -->
     <TextView
         android:id="@+id/am1"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/alternative_motoren"
@@ -37,7 +38,8 @@
 
     <!-- Start von: E-Motoren -->
     <TextView
-        android:id="@+id/am1"
+        android:id="@+id/am3"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/amogy"
@@ -65,6 +67,7 @@
     <!-- Start von: Synthetischen Kraftsoffen-->
     <TextView
         android:id="@+id/am5"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/synthetischer_kraftstoff"
@@ -93,6 +96,7 @@
     <!-- Start von: Erneuerbaren Energien-->
     <TextView
         android:id="@+id/am2"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/erneuerbare_energien"
@@ -122,6 +126,7 @@
     <!-- Start von: Umrüstung-->
     <TextView
         android:id="@+id/am4"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/umr_stung"
@@ -151,6 +156,7 @@
     <!-- Start von: Vor-und Nachteile für den Verbraucher-->
     <TextView
         android:id="@+id/am6"
+        android:textSize="16sp"
         android:layout_width="168dp"
         android:layout_height="43dp"
         android:text="@string/vor_und_nachteile_f_r_den_verbraucher"
@@ -192,6 +198,7 @@
 
     <ImageButton
         android:id="@+id/landwirt"
+        android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@null"

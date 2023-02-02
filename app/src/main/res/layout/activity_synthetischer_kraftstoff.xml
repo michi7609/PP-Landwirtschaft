@@ -17,18 +17,41 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/sk1"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
                 android:text="@string/synthetischer_kraftstoff1" />
 
             <TextView
+                android:id="@+id/sk2"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/synthetischer_kraftstoff5"/>
+
+            <TextView
+                android:id="@+id/sk4"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:text="@string/synthetischer_kraftstoff2"/>
 
             <TextView
+                android:id="@+id/sk3"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/synthetischer_kraftstoff6"/>
+
+            <TextView
+                android:id="@+id/sk5"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -39,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Amogy"
-                />
+                tools:ignore="HardcodedText" />
 
         </LinearLayout>
     </ScrollView>
