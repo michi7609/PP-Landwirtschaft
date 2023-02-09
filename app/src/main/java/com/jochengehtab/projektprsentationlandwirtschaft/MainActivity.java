@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         settings.setOnClickListener(v -> startActivity(new Intent(this, Settings.class)));
 
         Json json = new Json(getApplicationContext());
-        int textSize = json.get("config.yml");
+        int textSize = json.get("config.json");
 
         TextView am1 = findViewById(R.id.am1);
         TextView am2 = findViewById(R.id.am2);
