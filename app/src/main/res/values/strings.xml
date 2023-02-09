@@ -22,7 +22,7 @@
     <string name="landwirt">Landwirt</string>
     <string name="mensch">Mensch</string>
     <string name="amogy">Amogy</string>
-    <string name="synthetischer_kraftstoff1"><b><i><u>Beispiele für Syntethischen Karftstoffe:</u></i></b></string>
+    <string name="synthetischer_kraftstoff1"><b><i><u>Beispiel für syntethische Kraftstoffe:</u></i></b></string>
     <string name="synthetischer_kraftstoff2">Zukunftsfähig wären aber nur …</string>
     <string name="synthetischer_kraftstoff3"><b>Beispiele:</b></string>
     <string name="synthetischer_kraftstoff4"><b>\n\t Amogy</b></string>
@@ -31,9 +31,9 @@
     <string name="amogy1"><b>Mitarbeiter:</b></string>
     <string name="amogy2">\t\t•\tSeonghoon Woo (Vorsitzender, CEO und Mitbegründer)\n\t\t•\tYoung Suk Jo (CTO und Mitbegründer)\n\t\t•\tHyunho Kim (Vizepräsident für Innovation und Mitbegründer) \n\t\t•\tJongwon Choi (Vizepräsident der Fertigung \n\t\t und Mitbegründer) \n\t\t•\tChristian Berg (Geschäftsführer, Amogy Norwegen)</string>
     <string name="amogy3"><b>Geschichte:</b></string>
-    <string name="amogy4">Amogy wurde 2020 von vier Leuten gegründet. Dabei war die Idee einen alternativen umweltschonenden Motor zu finden. Durch Forschungen stellte das Team fest, dass die beste Alternative ein Ammoniak Motor ist. Das Ziel ist es, bis 2040 5 Milliarden Tonnen Kohlenstoffdioxid zu reduzieren. Amogy glaubt, dass ein sauberer Motor für Transport (dringend) notwendig ist, da man mithilfe des Motors die Zukunft nachhaltiger gestalten kann.</string>
+    <string name="amogy4">Amogy wurde 2020 von vier Leuten gegründet. Dabei war die Idee einen alternativen, umweltschonenden Motor zu finden. Durch Forschungen stellte das Team fest, dass die beste Alternative ein Ammoniak Motor ist. Das Ziel ist es, bis 2040 5 Milliarden Tonnen Kohlenstoffdioxid zu reduzieren. Amogy glaubt, dass ein sauberer Motor für Transport (dringend) notwendig ist, da man mithilfe des Motors die Zukunft nachhaltiger gestalten kann.</string>
     <string name="amogy5"><b>Ergebnisse der letzten Jahre und Pläne für die Zukunft:</b></string>
-    <string name="amogy6">2020:\n\n<b>November</b> – Die Gründer von Amogy gründeten das Unternehmen offiziell mit dem Ziel, Ammoniak in eine nachhaltige Energiequelle umzuwandeln, um den Transport zu dekarbonisieren.\n\n2021:\n\n<b>März</b> – Abschluss einer Seed-Finanzierungsrunde in Höhe von 3 Mio. USD unter der Leitung von APVentures.\n\n<b>Juli</b> – Erfolgreiche Entwicklung des allerersten emissionsfreien Drohnenflugs mit Ammoniakantrieb im 5-kW-Maßstab.\n\n<b>November</b> – Abschluss einer Serie-A-Finanzierungsrunde in Höhe von 20 Millionen US-Dollar unter der Leitung von APVentures und dem Climate Pledge Fund von Amazon.\n\n2022: \n\n<b>Mai</b> – Erfolgreiche Demonstration eines 100-kW-Powerpacks in einem Traktor, 20-fache Skalierung in weniger als einem Jahr.\n\n<b>Juni</b> – Abschluss einer Bridge-Finanzierungsrunde in Höhe von 46 Millionen US-Dollar unter der Leitung von SK, AP Ventures, dem Climate Pledge Fund von Amazon und Saudi Aramco Energy Ventures. Q4 – Es wird erwartet, dass Powerpack für eine Lkw-Demonstration der Klasse 8 auf 300 kW zu skalieren.\n\n2023-2025:\n\n<b>2023</b> – Planung einer Skalierung auf 1 MW in einer Bootsdemonstration, beginn der Kommerzialisierung der Amogy-Technologie.\n\n<b>2024-25</b> – Skalierung auf 10+ MW geplant, um Containerschiffe auf transozeanischen Reisen anzutreiben.</string>
+    <string name="amogy6">2020:\n\n<b>November</b> – Die Gründer von Amogy gründeten das Unternehmen offiziell mit dem Ziel, Ammoniak in eine nachhaltige Energiequelle umzuwandeln, um den Transport zu dekarbonisieren.\n\n2021:\n\n<b>März</b> – Abschluss einer Seed-Finanzierungsrunde in Höhe von 3 Mio. USD unter der Leitung von APVentures.\n\n<b>Juli</b> – Erfolgreiche Entwicklung des allerersten emissionsfreien Drohnenflugs mit Ammoniakantrieb im 5-kW-Maßstab.\n\n<b>November</b> – Abschluss einer Serie-A-Finanzierungsrunde in Höhe von 20 Millionen US-Dollar unter der Leitung von APVentures und dem Climate Pledge Fund von Amazon.\n\n2022: \n\n<b>Mai</b> – Erfolgreiche Demonstration eines 100-kW-Powerpacks in einem Traktor, 20-fache Skalierung in weniger als einem Jahr.\n\n<b>Juni</b> – Abschluss einer Bridge-Finanzierungsrunde in Höhe von 46 Millionen US-Dollar unter der Leitung von SK, APVentures, dem Climate Pledge Fund von Amazon und Saudi Aramco Energy Ventures. Q4 – Es wird erwartet, dass Powerpack für eine Lkw-Demonstration der Klasse 8 auf 300 kW zu skalieren.\n\n2023-2025:\n\n<b>2023</b> – Planung einer Skalierung auf 1 MW in einer Bootsdemonstration, beginn der Kommerzialisierung der Amogy-Technologie.\n\n<b>2024-25</b> – Skalierung auf 10+ MW geplant, um Containerschiffe auf transozeanischen Reisen anzutreiben.</string>
     <string name="umruestung1"><b><i><u>Die Umrüstung</u></i></b></string>
     <string name="umruestung2">Es gibt <b>nicht</b> viele Möglichkeiten für eine Umrüstung. Von daher liegt der Fokus eher auf synthetischen Kraftstoffen. So gibt auch das vereinzelte Beispiel von einem synthetischen Kraftstoff, der zu <b>10%</b> aus <b>Diesel</b> und zu <b>90%</b> aus <b>Wasserstoff</b> besteht.</string>
     <string name="umruestung3"><b><i><u>Beispiel:</u></i></b></string>
@@ -45,13 +45,13 @@
     <string name="ee6">Denn die deutsche Landwirtschaft ist maßgeblich an der Erzeugung erneuerbarer Energien beteiligt. So sind deutschlandweit 2020 mehr als 9.500 Biogasanlagen mit einer installierten Leistung von über 5.600 Megawatt (MW) in Betrieb. Sie liefern ausreichend Strom für mehr als neun Millionen Haushalte und decken rund 5,4 Prozent des deutschen Stromverbrauchs ab.</string>
     <string name="mensch1"><b><i><u>Vorteile Mensch:</u></i></b></string>
     <string name="mensch2">\t\t-\tVerbesserung der Luftqualität\n\t\t-\tWeniger CO2 Ausstoß</string>
-    <string name="mensch3"><b><i><u>Nachteile Mensch:</u></i></b></string>
+    <string name="mensch3"><b><i><u>Nachteil Mensch:</u></i></b></string>
     <string name="mensch4">\t\t-\tPreise steigen</string>
     <string name="einstellungen">Einstellungen</string>
     <string name="la1"><b><i><u>Vorteile Landwirt:</u></i></b></string>
     <string name="la2">\t\t- <b>Kosteneinsparung</b> von <b>Treibstoffverbrauch</b> \n\t\t- Weniger Betriebskosten für die Traktoren\n\t\t- <b>Unabhängiger</b> von <b>fossilen Brennstoffen</b> </string>
     <string name="la3"><b><i><u>Nachteile Landwirt:</u></i></b></string>
     <string name="la4">\t\t- <b>Hohe Anschaffungskosten</b> \n\t\t- Elektrofahrzeuge und andere nachhaltige Mobilitätsoptionen kosten meistens mehr\n\t\t- Elektrofahrzeuge sind nicht so leistungsfähig\n\t\t - Wenige Ladesäulen in Deutschland für Wasserstofftraktoren\n\t\t- Elektrotraktoren nicht für schwere Lasten geeignet</string>
-    <string name="beispiele"><b><i><u>Beispiele: </u></i></b></string>
+    <string name="beispiele"><b><i><u>Beispiel: </u></i></b></string>
     <string name="beispiele1">Von diesem versprechen sich Experten besonders viel: \n\n\t-\t\tHybridantrieb\n\t-\t\tBioethanol\n\t-\t\tBiodiesel\n\t-\t\tPflanzenöl\n\n\nZukunftsfähig wären aber nur der <b>Wasserstoffantrieb</b> und <b>Ammoniakantrieb</b>.</string>
 </resources>

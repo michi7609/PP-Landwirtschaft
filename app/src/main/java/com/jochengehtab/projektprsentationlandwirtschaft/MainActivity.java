@@ -57,4 +57,28 @@ public class MainActivity extends AppCompatActivity {
         am6.setTextSize(textSize);
         am7.setTextSize(textSize);
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        Json json = new Json(getApplicationContext());
+        int textSize = json.get("config.json");
+
+        TextView am1 = findViewById(R.id.am1);
+        TextView am2 = findViewById(R.id.am2);
+        TextView am3 = findViewById(R.id.am3);
+        TextView am4 = findViewById(R.id.am4);
+        TextView am5 = findViewById(R.id.am5);
+        TextView am6 = findViewById(R.id.am6);
+        TextView am7 = findViewById(R.id.am7);
+
+        am1.setTextSize(textSize);
+        am2.setTextSize(textSize);
+        am3.setTextSize(textSize);
+        am4.setTextSize(textSize);
+        am5.setTextSize(textSize);
+        am6.setTextSize(textSize);
+        am7.setTextSize(textSize);
+    }
 }
