@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".Alternative_Motoren">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/aam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/beispiele"/>
+
+            <TextView
+                android:id="@+id/aam2"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="@string/beispiele1"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

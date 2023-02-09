@@ -8,7 +8,7 @@ import android.widget.TextView;
 public class Settings extends AppCompatActivity {
 
     private int textSize;
-    private String FILENAME = "config.json";
+    private final String FILENAME = "config.json";
 
 
     @Override
@@ -24,6 +24,8 @@ public class Settings extends AppCompatActivity {
         output.setText("Deine aktuelle Textgröße ist: " + textSize);
 
         ImageButton plus = findViewById(R.id.plus), minus = findViewById(R.id.minus);
+        TextView sampleTextSize = findViewById(R.id.sampletextsize);
+        sampleTextSize.setTextSize(textSize);
 
         plus.setOnClickListener(v -> {
             if (textSize >= 50) {
@@ -32,6 +34,7 @@ public class Settings extends AppCompatActivity {
             json.set(FILENAME, textSize + 1);
             textSize = json.get(FILENAME);
             output.setText("Deine aktuelle Textgröße ist: " + textSize);
+            sampleTextSize.setTextSize(textSize);
         });
 
         minus.setOnClickListener(v -> {
@@ -41,6 +44,7 @@ public class Settings extends AppCompatActivity {
             json.set(FILENAME, textSize - 1);
             textSize = json.get(FILENAME);
             output.setText("Deine aktuelle Textgröße ist: " + textSize);
+            sampleTextSize.setTextSize(textSize);
         });
     }
 }
