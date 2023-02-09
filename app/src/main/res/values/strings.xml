@@ -22,9 +22,9 @@
     <string name="landwirt">Landwirt</string>
     <string name="mensch">Mensch</string>
     <string name="amogy">Amogy</string>
-    <string name="synthetischer_kraftstoff1"><b><i><u>Beispiel für syntethische Kraftstoffe:</u></i></b></string>
+    <string name="synthetischer_kraftstoff1"><b><i><u>Beispiele für syntethische Kraftstoffe:</u></i></b></string>
     <string name="synthetischer_kraftstoff2">Zukunftsfähig wären aber nur …</string>
-    <string name="synthetischer_kraftstoff3"><b>Beispiele:</b></string>
+    <string name="synthetischer_kraftstoff3"><b>Beispiel:</b></string>
     <string name="synthetischer_kraftstoff4"><b>\n\t Amogy</b></string>
     <string name="synthetischer_kraftstoff5">\t•\t\t	Ammoniak\n\t•\t\t	Methanol\n\t•\t\t	Dimethylether\n\t•\t\t	SNG (Synthetic Natural Gas)\n\t•\t\t	Wasserstoff\n\t•\t\t	Oxymethylenether\n\t•\t\t	Aceton\n\t•\t\t	Hydrazin\n\t•\t\t	Benzol\n\t•\t\t	Nitrobenzol</string>
     <string name="synthetischer_kraftstoff6"><b>Ammoniak:</b>\nAmmoniak wird mit dem Haber-Bosch-Verfahren hergestellt. Dabei wendet man die sogenannte Ammoniaksynthese an.\n\n<b>Wasserstoff:</b>\nGrüner Wasserstoff wird durch die Elektrolyse von Wasser hergestellt. Dafür wird Strom aus erneuerbaren Energien verwendet.</string>
@@ -51,7 +51,7 @@
     <string name="la1"><b><i><u>Vorteile Landwirt:</u></i></b></string>
     <string name="la2">\t\t- <b>Kosteneinsparung</b> von <b>Treibstoffverbrauch</b> \n\t\t- Weniger Betriebskosten für die Traktoren\n\t\t- <b>Unabhängiger</b> von <b>fossilen Brennstoffen</b> </string>
     <string name="la3"><b><i><u>Nachteile Landwirt:</u></i></b></string>
-    <string name="la4">\t\t- <b>Hohe Anschaffungskosten</b> \n\t\t- Elektrofahrzeuge und andere nachhaltige Mobilitätsoptionen kosten meistens mehr\n\t\t- Elektrofahrzeuge sind nicht so leistungsfähig\n\t\t - Wenige Ladesäulen in Deutschland für Wasserstofftraktoren\n\t\t- Elektrotraktoren nicht für schwere Lasten geeignet</string>
+    <string name="la4">\t\t- <b>Hohe Anschaffungskosten</b> \n\t\t- Elektrofahrzeuge und andere nachhaltige Mobilitätsoptionen kosten meistens mehr\n\t\t- Elektrofahrzeuge sind nicht so leistungsfähig\n\t\t- Wenige Ladesäulen in Deutschland für Wasserstofftraktoren\n\t\t- Elektrotraktoren nicht für schwere Lasten geeignet</string>
     <string name="beispiele"><b><i><u>Beispiel: </u></i></b></string>
     <string name="beispiele1">Von diesem versprechen sich Experten besonders viel: \n\n\t-\t\tHybridantrieb\n\t-\t\tBioethanol\n\t-\t\tBiodiesel\n\t-\t\tPflanzenöl\n\n\nZukunftsfähig wären aber nur der <b>Wasserstoffantrieb</b> und <b>Ammoniakantrieb</b>.</string>
 </resources>
